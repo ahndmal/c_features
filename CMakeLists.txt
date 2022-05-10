@@ -3,4 +3,4 @@ project(c_features C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(c_features main.c src/files_test.c src/nums.c)
+add_executable(c_features main.c c_src/files_test.c c_src/nums.c c_src/c_http.c c_src/prints.c)

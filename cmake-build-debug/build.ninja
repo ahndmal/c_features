@@ -55,17 +55,29 @@ build CMakeFiles/c_features.dir/main.c.o: C_COMPILER__c_features_Debug /home/and
   OBJECT_DIR = CMakeFiles/c_features.dir
   OBJECT_FILE_DIR = CMakeFiles/c_features.dir
 
-build CMakeFiles/c_features.dir/src/files_test.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/src/files_test.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/src/files_test.c.o.d
+build CMakeFiles/c_features.dir/c_src/files_test.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/files_test.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/files_test.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
 
-build CMakeFiles/c_features.dir/src/nums.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/src/nums.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/src/nums.c.o.d
+build CMakeFiles/c_features.dir/c_src/nums.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/nums.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/nums.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+
+build CMakeFiles/c_features.dir/c_src/c_http.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/c_http.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/c_http.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+
+build CMakeFiles/c_features.dir/c_src/prints.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/prints.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/prints.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
 
 
 # =============================================================================
@@ -75,7 +87,7 @@ build CMakeFiles/c_features.dir/src/nums.c.o: C_COMPILER__c_features_Debug /home
 #############################################
 # Link the executable c_features
 
-build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/src/files_test.c.o CMakeFiles/c_features.dir/src/nums.c.o
+build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/c_src/files_test.c.o CMakeFiles/c_features.dir/c_src/nums.c.o CMakeFiles/c_features.dir/c_src/c_http.c.o CMakeFiles/c_features.dir/c_src/prints.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/c_features.dir
   POST_BUILD = :
