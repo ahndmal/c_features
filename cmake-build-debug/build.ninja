@@ -79,6 +79,36 @@ build CMakeFiles/c_features.dir/c_src/prints.c.o: C_COMPILER__c_features_Debug /
   OBJECT_DIR = CMakeFiles/c_features.dir
   OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
 
+build CMakeFiles/c_features.dir/c_src/fibo.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/fibo.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/fibo.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+
+build CMakeFiles/c_features.dir/c_src/asters.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/asters.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/asters.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+
+build CMakeFiles/c_features.dir/c_src/student_score.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/student_score.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/student_score.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+
+build CMakeFiles/c_features.dir/c_src/stats.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/stats.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/stats.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+
+build CMakeFiles/c_features.dir/c_src/reg1.c.o: C_COMPILER__c_features_Debug /home/andrii/prog/c/c-features/c_src/reg1.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/reg1.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_features
@@ -87,7 +117,7 @@ build CMakeFiles/c_features.dir/c_src/prints.c.o: C_COMPILER__c_features_Debug /
 #############################################
 # Link the executable c_features
 
-build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/c_src/files_test.c.o CMakeFiles/c_features.dir/c_src/nums.c.o CMakeFiles/c_features.dir/c_src/c_http.c.o CMakeFiles/c_features.dir/c_src/prints.c.o
+build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/c_src/files_test.c.o CMakeFiles/c_features.dir/c_src/nums.c.o CMakeFiles/c_features.dir/c_src/c_http.c.o CMakeFiles/c_features.dir/c_src/prints.c.o CMakeFiles/c_features.dir/c_src/fibo.c.o CMakeFiles/c_features.dir/c_src/asters.c.o CMakeFiles/c_features.dir/c_src/student_score.c.o CMakeFiles/c_features.dir/c_src/stats.c.o CMakeFiles/c_features.dir/c_src/reg1.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/c_features.dir
   POST_BUILD = :

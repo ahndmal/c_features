@@ -1,14 +1,14 @@
 # ninja log v5
 1	32	1651252229056344889	CMakeFiles/c_features.dir/nums.c.o	f74589b8ffe62a21
+1	24	1652189118371164916	CMakeFiles/c_features.dir/c_src/asters.c.o	3e53b030fb3acc1c
 1	29	1652188354193176081	CMakeFiles/c_features.dir/c_src/ent1.c.o	cfcff70398bb4a23
 1	36	1652188354201175426	CMakeFiles/c_features.dir/c_src/prints.c.o	da0e86547f470cb8
-0	13	1652188367668074123	build.ninja	23761c7d25e0c3c9
-0	30	1652188354193176081	CMakeFiles/c_features.dir/main.c.o	170058c5feb2a09c
+0	23	1652191206751037350	build.ninja	23761c7d25e0c3c9
+0	32	1652189118379164117	CMakeFiles/c_features.dir/main.c.o	170058c5feb2a09c
 1	35	1652178882003630451	CMakeFiles/c_features.dir/c_src/c_http.c.o	8a96928685c5edc9
 0	27	1651253018918993581	CMakeFiles/c_features.dir/src/nums.c.o	a89e6a5b69aae6ff
+1	21	1652189118371164916	CMakeFiles/c_features.dir/c_src/fibo.c.o	b70a640544d4174c
 0	14	1651250672429243432	CMakeFiles/c_features.dir/src/files_test.c.o	ccdb671cb6a253e3
 1	42	1652188354205175100	CMakeFiles/c_features.dir/c_src/nums.c.o	cfe79451c05977e6
 1	40	1652178853733788046	CMakeFiles/c_features.dir/c_src/files_test.c.o	230bc115b8b07558
-39	66	1652181963731463476	c_features	d9ecf46f8ee4f4f4
-0	23	1652188367668074123	build.ninja	23761c7d25e0c3c9
-1	25	1652188367696071833	c_features	77cc50dd614397c2
+32	53	1652189118403161720	c_features	246b9cbd5b13a7cb

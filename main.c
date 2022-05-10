@@ -26,7 +26,7 @@ void modifyCat(struct cat *cat, char *newName) {
     strcpy(cat -> name, newName);
 }
 
-int main() {
+void init_structs() {
     int age = 36;
     struct cat murzik;
     struct dog sharik;
@@ -54,6 +54,25 @@ int main() {
 
     char *str1 = "Hello there!";
     unsigned long strLength = strlen(str1);
+}
+
+int main() {
+
+    int row, i, j;
+    printf("Enter the number of rows:");
+    scanf("%d", &row);
+    printf("\n");
+    for (i = 0; i < row; i++) {
+
+        for (j = 0; j <= i; j++) {
+
+            printf(" * ");
+
+        }
+
+        printf("\n");
+
+    }
 
     return 0;
 }
