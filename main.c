@@ -123,8 +123,8 @@ void perform_curl_req() {
 
 int main() {
     // JSON
-    json_parse("{\"name\": \"Vasyl\"}", 20);
-
+    json_value *jsonValue = json_parse("{\"name\": \"Vasyl\"}", 20);
+    printf("json type is %s", jsonValue->type);
 
     return 0;
 }

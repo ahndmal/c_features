@@ -3,13 +3,9 @@
 4	61	1661597008155448791	CMakeFiles/c_features.dir/c_src/misc/prints.c.o	55d72c7fcda33e35
 1	57	1661597008143448642	CMakeFiles/c_features.dir/c_src/files/files_test.c.o	5c19e7d88525b9b9
 2	109	1661597008207449440	CMakeFiles/c_features.dir/c_src/misc/nums.c.o	3f1c34f5d1d043bc
-0	34	1661599726509645180	build.ninja	33c041c743651eea
-1	166	1661597008263450141	CMakeFiles/c_features.dir/main.c.o	7f44cd04a45731b3
+0	45	1661611854280240952	build.ninja	33c041c743651eea
+1	67	1661606691935372219	CMakeFiles/c_features.dir/main.c.o	7f44cd04a45731b3
 57	107	1661597008203449392	CMakeFiles/c_features.dir/c_src/misc/asters.c.o	e41a47df7336bc9c
-0	90	1661597772848986417	c_features	d63c138f987d1514
+88	186	1661599726705647477	c_features	d63c138f987d1514
 13	100	1661597008195449292	CMakeFiles/c_features.dir/c_src/misc/fibo.c.o	a6fa969410fbf301
 62	115	1661597008211449492	CMakeFiles/c_features.dir/c_src/misc/student_score.c.o	fa736f92076f63ed
-0	45	1661599726509645180	build.ninja	33c041c743651eea
-1	88	1661599726609646352	CMakeFiles/c_features.dir/main.c.o	7f44cd04a45731b3
-88	186	1661599726705647477	c_features	d63c138f987d1514
-1	75	1661600631286770858	CMakeFiles/c_features.dir/main.c.o	7f44cd04a45731b3

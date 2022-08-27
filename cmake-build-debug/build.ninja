@@ -97,6 +97,24 @@ build CMakeFiles/c_features.dir/c_src/misc/student_score.c.o: C_COMPILER__c_feat
   OBJECT_DIR = CMakeFiles/c_features.dir
   OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/misc
 
+build CMakeFiles/c_features.dir/c_src/core/argv_ex2.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/core/argv_ex2.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/core/argv_ex2.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/core
+
+build CMakeFiles/c_features.dir/c_src/core/arrs_point.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/core/arrs_point.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/core/arrs_point.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/core
+
+build CMakeFiles/c_features.dir/c_src/core/exiting.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/core/exiting.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/core/exiting.c.o.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles/c_features.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/core
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_features
@@ -105,7 +123,7 @@ build CMakeFiles/c_features.dir/c_src/misc/student_score.c.o: C_COMPILER__c_feat
 #############################################
 # Link the executable c_features
 
-build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/c_src/files/files_test.c.o CMakeFiles/c_features.dir/c_src/misc/nums.c.o CMakeFiles/c_features.dir/c_src/core/http_sock/c_http.c.o CMakeFiles/c_features.dir/c_src/misc/prints.c.o CMakeFiles/c_features.dir/c_src/misc/fibo.c.o CMakeFiles/c_features.dir/c_src/misc/asters.c.o CMakeFiles/c_features.dir/c_src/misc/student_score.c.o | /usr/lib/x86_64-linux-gnu/libcurl.so
+build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/c_src/files/files_test.c.o CMakeFiles/c_features.dir/c_src/misc/nums.c.o CMakeFiles/c_features.dir/c_src/core/http_sock/c_http.c.o CMakeFiles/c_features.dir/c_src/misc/prints.c.o CMakeFiles/c_features.dir/c_src/misc/fibo.c.o CMakeFiles/c_features.dir/c_src/misc/asters.c.o CMakeFiles/c_features.dir/c_src/misc/student_score.c.o CMakeFiles/c_features.dir/c_src/core/argv_ex2.c.o CMakeFiles/c_features.dir/c_src/core/arrs_point.c.o CMakeFiles/c_features.dir/c_src/core/exiting.c.o | /usr/lib/x86_64-linux-gnu/libcurl.so
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libcurl.so
   OBJECT_DIR = CMakeFiles/c_features.dir

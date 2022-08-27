@@ -4,7 +4,7 @@ project(c_features C)
 set(CMAKE_C_STANDARD 99)
 #set(CURL_LIBRARY "-lcurl")
 
-add_executable(c_features main.c c_src/files/files_test.c c_src/misc/nums.c c_src/core/http_sock/c_http.c c_src/misc/prints.c c_src/misc/fibo.c c_src/misc/asters.c c_src/misc/student_score.c)
+add_executable(c_features main.c c_src/files/files_test.c c_src/misc/nums.c c_src/core/http_sock/c_http.c c_src/misc/prints.c c_src/misc/fibo.c c_src/misc/asters.c c_src/misc/student_score.c c_src/core/argv_ex2.c c_src/core/arrs_point.c c_src/core/exiting.c)
 #LDFLAGS=-lcurl
 
 find_package(PkgConfig REQUIRED)
