@@ -12,6 +12,13 @@
 #include <sys/resource.h>
 #include <time.h>
 
+#include <unistd.h> /* read, write, close */
+#include <sys/socket.h> /* socket, connect */
+#include <netinet/in.h> /* struct sockaddr_in, struct sockaddr */
+#include <netdb.h> /* struct hostent, gethostbyname */
+
+#include <curl/curl.h>
+
 typedef unsigned char byte;
 
 struct cat {
@@ -24,6 +31,8 @@ struct dog {
     int age;
     char *name;
 };
+
+void socket_get();
 
 void modifyCat(struct cat *cat, char *newName) {
     strcpy(cat->name, newName);
@@ -73,23 +82,44 @@ void print_aster() {
 
 }
 
-int main() {
+void my_timer_func_one() {
     time_t start, end;
     double elapsed, prev_elapsed = 0.0;
     time(&start); // start timer
-    do
-    {
+    do {
         time(&end);
         elapsed = difftime(end, start);
-        if (elapsed >= prev_elapsed+1.0)
-        {
-            printf("green\n");
+        if (elapsed >= prev_elapsed + 1.0) {
+            printf("Printing... \n");
             prev_elapsed = elapsed;
         }
-    } while(elapsed < 9.0);
-
-    return 0;
+    } while (elapsed < 20.0);
 }
 
-// mallock
-// callock
+void error(const char *msg) {
+    perror(msg);
+    exit(0);
+}
+
+int main() {
+    CURL *curl;
+    CURLcode res;
+
+    curl = curl_easy_init();
+    if(curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, "https://example.com");
+        /* example.com is redirected, so we tell libcurl to follow redirection */
+        curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+
+        /* Perform the request, res will get the return code */
+        res = curl_easy_perform(curl);
+        /* Check for errors */
+        if(res != CURLE_OK)
+            fprintf(stderr, "curl_easy_perform() failed: %s\n",
+                    curl_easy_strerror(res));
+
+        /* always cleanup */
+        curl_easy_cleanup(curl);
+    }
+    return 0;
+}
