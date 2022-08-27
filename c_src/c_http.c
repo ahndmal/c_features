@@ -25,7 +25,6 @@ int socket_connect(char *host, in_port_t port) {
 
 //    copy(hp->h_addr, &addr.sin_addr, hp->h_length);
 
-
 }
 
 //void copy(char *string, struct in_addr *pAddr, int length) {

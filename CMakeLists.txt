@@ -3,4 +3,4 @@ project(c_features C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(c_features main.c c_src/files_test.c c_src/nums.c c_src/c_http.c c_src/prints.c c_src/fibo.c c_src/asters.c c_src/student_score.c c_src/stats.c c_src/reg1.c)
+add_executable(c_features main.c c_src/files/files_test.c c_src/misc/nums.c c_src/c_http.c c_src/misc/prints.c c_src/misc/fibo.c c_src/misc/asters.c c_src/student_score.c c_src/misc/stats.c c_src/misc/reg1.c c_src/structs/animals.c c_src/misc/printing.c)

@@ -3,12 +3,10 @@
 void func(void) {
 
     static count = 10; /* global variable- static is the default */
-
     {
         while (count--) {
             func();
         }
-
     }
 }
 
