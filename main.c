@@ -18,6 +18,7 @@
 #include <netdb.h> /* struct hostent, gethostbyname */
 
 #include <curl/curl.h>
+#include "json.h"
 
 typedef unsigned char byte;
 
@@ -101,25 +102,29 @@ void error(const char *msg) {
     exit(0);
 }
 
-int main() {
+void perform_curl_req() {
     CURL *curl;
     CURLcode res;
 
     curl = curl_easy_init();
-    if(curl) {
+    if (curl != NULL) {
         curl_easy_setopt(curl, CURLOPT_URL, "https://example.com");
         /* example.com is redirected, so we tell libcurl to follow redirection */
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
 
-        /* Perform the request, res will get the return code */
         res = curl_easy_perform(curl);
-        /* Check for errors */
-        if(res != CURLE_OK)
-            fprintf(stderr, "curl_easy_perform() failed: %s\n",
-                    curl_easy_strerror(res));
+        if (res != CURLE_OK)
+            fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
 
         /* always cleanup */
         curl_easy_cleanup(curl);
     }
+}
+
+int main() {
+    // JSON
+    json_parse("{\"name\": \"Vasyl\"}", 20);
+
+
     return 0;
 }

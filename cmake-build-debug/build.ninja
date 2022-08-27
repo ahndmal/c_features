@@ -67,11 +67,11 @@ build CMakeFiles/c_features.dir/c_src/misc/nums.c.o: C_COMPILER__c_features_Debu
   OBJECT_DIR = CMakeFiles/c_features.dir
   OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/misc
 
-build CMakeFiles/c_features.dir/c_src/c_http.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/c_http.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/c_http.c.o.d
+build CMakeFiles/c_features.dir/c_src/core/http_sock/c_http.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/core/http_sock/c_http.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/core/http_sock/c_http.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
+  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/core/http_sock
 
 build CMakeFiles/c_features.dir/c_src/misc/prints.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/misc/prints.c || cmake_object_order_depends_target_c_features
   DEP_FILE = CMakeFiles/c_features.dir/c_src/misc/prints.c.o.d
@@ -91,47 +91,11 @@ build CMakeFiles/c_features.dir/c_src/misc/asters.c.o: C_COMPILER__c_features_De
   OBJECT_DIR = CMakeFiles/c_features.dir
   OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/misc
 
-build CMakeFiles/c_features.dir/c_src/student_score.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/student_score.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/student_score.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src
-
-build CMakeFiles/c_features.dir/c_src/misc/stats.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/misc/stats.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/misc/stats.c.o.d
+build CMakeFiles/c_features.dir/c_src/misc/student_score.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/misc/student_score.c || cmake_object_order_depends_target_c_features
+  DEP_FILE = CMakeFiles/c_features.dir/c_src/misc/student_score.c.o.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles/c_features.dir
   OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/misc
-
-build CMakeFiles/c_features.dir/c_src/misc/reg1.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/misc/reg1.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/misc/reg1.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/misc
-
-build CMakeFiles/c_features.dir/c_src/structs/animals.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/structs/animals.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/structs/animals.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/structs
-
-build CMakeFiles/c_features.dir/c_src/misc/printing.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/misc/printing.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/misc/printing.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/misc
-
-build CMakeFiles/c_features.dir/c_src/core/core_time.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/core/core_time.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/core/core_time.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/core
-
-build CMakeFiles/c_features.dir/c_src/core/http_sock/http_sock1.c.o: C_COMPILER__c_features_Debug /home/malandr/CLionProjects/c_features/c_src/core/http_sock/http_sock1.c || cmake_object_order_depends_target_c_features
-  DEP_FILE = CMakeFiles/c_features.dir/c_src/core/http_sock/http_sock1.c.o.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles/c_features.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_features.dir/c_src/core/http_sock
 
 
 # =============================================================================
@@ -141,8 +105,9 @@ build CMakeFiles/c_features.dir/c_src/core/http_sock/http_sock1.c.o: C_COMPILER_
 #############################################
 # Link the executable c_features
 
-build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/c_src/files/files_test.c.o CMakeFiles/c_features.dir/c_src/misc/nums.c.o CMakeFiles/c_features.dir/c_src/c_http.c.o CMakeFiles/c_features.dir/c_src/misc/prints.c.o CMakeFiles/c_features.dir/c_src/misc/fibo.c.o CMakeFiles/c_features.dir/c_src/misc/asters.c.o CMakeFiles/c_features.dir/c_src/student_score.c.o CMakeFiles/c_features.dir/c_src/misc/stats.c.o CMakeFiles/c_features.dir/c_src/misc/reg1.c.o CMakeFiles/c_features.dir/c_src/structs/animals.c.o CMakeFiles/c_features.dir/c_src/misc/printing.c.o CMakeFiles/c_features.dir/c_src/core/core_time.c.o CMakeFiles/c_features.dir/c_src/core/http_sock/http_sock1.c.o
+build c_features: C_EXECUTABLE_LINKER__c_features_Debug CMakeFiles/c_features.dir/main.c.o CMakeFiles/c_features.dir/c_src/files/files_test.c.o CMakeFiles/c_features.dir/c_src/misc/nums.c.o CMakeFiles/c_features.dir/c_src/core/http_sock/c_http.c.o CMakeFiles/c_features.dir/c_src/misc/prints.c.o CMakeFiles/c_features.dir/c_src/misc/fibo.c.o CMakeFiles/c_features.dir/c_src/misc/asters.c.o CMakeFiles/c_features.dir/c_src/misc/student_score.c.o | /usr/lib/x86_64-linux-gnu/libcurl.so
   FLAGS = -g
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libcurl.so
   OBJECT_DIR = CMakeFiles/c_features.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -193,14 +158,14 @@ build all: phony c_features
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/FindPackageMessage.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/FindPkgConfig.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/FindPackageMessage.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/FindPkgConfig.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/malandr/Downloads/clion-2022.2/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################
