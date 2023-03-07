@@ -1,9 +1,4 @@
-/*
- * When you issue the command to compile a C program, the program is run automatically
- * through the preprocessor. The preprocessor is a program that modifies the C source program
- * according to the directives supplied in the program.
- MAX 15 nested levels of include files
- */
+#include <stdbool.h>
 #include <stdio.h>
 #include <syslog.h>
 #include <string.h>
@@ -123,8 +118,18 @@ void perform_curl_req() {
 
 int main() {
     // JSON
-    json_value *jsonValue = json_parse("{\"name\": \"Vasyl\"}", 20);
-    printf("json type is %s", jsonValue->type);
+//    json_value *jsonValue = json_parse("{\"name\": \"Vasyl\"}", 20);
+//    printf("json type is %s", jsonValue->type);
+
+    struct hostent *server;
+    int port = 80;
+    char *host = "example.com";
+    int sockfd, bytes, sent, received, total;
+
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    server = gethostbyname(host);
+
+
 
     return 0;
 }
